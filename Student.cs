@@ -2,12 +2,30 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace OOPS
 {
     internal class Student
     {
+        public void StudentDetails() {
+            Console.WriteLine("Enter the Student id: ");
+            int id = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Student Name is:");
+            string name = Console.ReadLine();
+            Console.WriteLine("Enter Student Age is:");
+            int age = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= 10; i++)
+            {
+                StudentDe(id, name, age);
+                StudentDetails();
+                Student.College();
+            }
+            
+
+
+        }
         public void StudentDe(int id,string name,int age) 
         {
             Console.WriteLine("Student id is : "+id +"   Student name is : "+name+"   student age is : "+age);
@@ -19,13 +37,12 @@ namespace OOPS
         }
         static void Main(string[] args)
         {
-            Student stu = new Student();
-            stu.StudentDe(1, "sai", 20);
-            stu.StudentDe(2, "suresh", 29);
-            stu.StudentDe(3, "mahesh", 28);
-            stu.StudentDe(4, "chenna", 27);
-            stu.StudentDe(5, "akash", 23);
-            Student.College();
+ 
+            {
+                Student student = new Student();
+                student.StudentDetails();
+   
+            }
         }
 
     }
