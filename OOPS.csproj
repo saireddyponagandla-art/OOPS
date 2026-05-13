@@ -51,6 +51,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReturnWParameter.cs" />
     <Compile Include="Student.cs" />
+    <Compile Include="Student1.cs" />
+    <Compile Include="StudentwithArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
