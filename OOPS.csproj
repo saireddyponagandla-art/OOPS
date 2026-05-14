@@ -44,6 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array.cs" />
+    <Compile Include="ConstractorEx1.cs" />
+    <Compile Include="DefalutEx.cs" />
+    <Compile Include="InstanceCon.cs" />
+    <Compile Include="Myclass.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="ExampleReturn.cs" />
     <Compile Include="Return.cs" />
     <Compile Include="Ex1.cs" />
