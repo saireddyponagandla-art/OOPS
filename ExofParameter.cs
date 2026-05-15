@@ -29,25 +29,36 @@ namespace OOPS
                 carname = Carname;
                 carcolor = Carcolor;
                 carmodel = Carmodel;
+                if (Carmodel >= 1886)
+                {
+                    Console.WriteLine("carmodel is:"+carmodel);
+
+                }
+                else
+                {
+                    Console.WriteLine(carmodel+"this year not  inviting");
+                }
                carprice = Carprice;
             }
+            
             public void DisplayCaeDetails()// it is method to display the details of the car
             {
                 Console.WriteLine("car name is :" + carname);
                 Console.WriteLine("car color is :" + carcolor);
-                Console.WriteLine("car model is:"+ carmodel);
+                //Console.WriteLine("car model is:"+ carmodel);
                 Console.WriteLine("car price is:" + carprice);
             }
+          
 
         }
         static  void Main(string[] args)
         {
-            Car ob = new Car();
-            ob.DisplayCaeDetails();
-            Car ob1 =new Car("Suzuki", "Red",2021,300000);
+            //Car ob = new Car();
+            //ob.DisplayCaeDetails();
+            Car ob1 =new Car("Suzuki", "Red",1800,300000);
             ob1.DisplayCaeDetails();
-            Car ob2 = new Car("Mahindra", "White", 2024, 400000);
-            ob2.DisplayCaeDetails();
+            //Car ob2 = new Car("Mahindra", "White", 1800, 400000);
+            //ob2.DisplayCaeDetails();
         }
     }
 }
