@@ -50,6 +50,8 @@
     <Compile Include="Myclass.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="ExampleReturn.cs" />
+    <Compile Include="ParameterEx.cs" />
+    <Compile Include="ParameterwithDefalut.cs" />
     <Compile Include="Return.cs" />
     <Compile Include="Ex1.cs" />
     <Compile Include="Noreturn1.cs" />
