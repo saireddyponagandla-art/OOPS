@@ -51,6 +51,7 @@
     <Compile Include="Employee.cs" />
     <Compile Include="ExampleReturn.cs" />
     <Compile Include="ParameterEx.cs" />
+    <Compile Include="ParameterRealworldEx.cs" />
     <Compile Include="ParameterwithDefalut.cs" />
     <Compile Include="Return.cs" />
     <Compile Include="Ex1.cs" />
