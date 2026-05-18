@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Array.cs" />
     <Compile Include="ConstractorEx1.cs" />
+    <Compile Include="StudentExPara.cs" />
     <Compile Include="DefalutEx.cs" />
     <Compile Include="ExofParameter.cs" />
     <Compile Include="InstanceCon.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="ReturnWParameter.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Student1.cs" />
+    <Compile Include="StudentEX.cs" />
     <Compile Include="StudentExWithParameter.cs" />
     <Compile Include="StudentwithArray.cs" />
   </ItemGroup>
