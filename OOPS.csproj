@@ -44,7 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="ConstractorEx1.cs" />
+    <Compile Include="ExamplefotBaseclass.cs" />
+    <Compile Include="InternalAccessModifier.cs" />
+    <Compile Include="ProtectedAccessModifier.cs" />
+    <Compile Include="ProtectedModifierE.cs" />
     <Compile Include="StudentExPara.cs" />
     <Compile Include="DefalutEx.cs" />
     <Compile Include="ExofParameter.cs" />
