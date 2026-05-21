@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array.cs" />
+    <Compile Include="ArrayStudent.cs" />
     <Compile Include="ExParameter.cs" />
     <Compile Include="ConstractorEx1.cs" />
     <Compile Include="ExamplefotBaseclass.cs" />
