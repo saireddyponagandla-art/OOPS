@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="ExParameter.cs" />
     <Compile Include="ConstractorEx1.cs" />
     <Compile Include="ExamplefotBaseclass.cs" />
     <Compile Include="InternalAccessModifier.cs" />
@@ -71,6 +71,7 @@
     <Compile Include="StudentEX.cs" />
     <Compile Include="StudentExWithParameter.cs" />
     <Compile Include="StudentwithArray.cs" />
+    <Compile Include="ThisKeyword.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
