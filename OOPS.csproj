@@ -47,6 +47,7 @@
     <Compile Include="ExParameter.cs" />
     <Compile Include="ConstractorEx1.cs" />
     <Compile Include="ExamplefotBaseclass.cs" />
+    <Compile Include="Exthis.cs" />
     <Compile Include="InternalAccessModifier.cs" />
     <Compile Include="ProtectedAccessModifier.cs" />
     <Compile Include="ProtectedModifierE.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="StudentEX.cs" />
     <Compile Include="StudentExWithParameter.cs" />
     <Compile Include="StudentwithArray.cs" />
+    <Compile Include="StuThis.cs" />
     <Compile Include="ThisKeyword.cs" />
   </ItemGroup>
   <ItemGroup>
